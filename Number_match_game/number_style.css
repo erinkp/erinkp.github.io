@@ -1,0 +1,146 @@
+/* Add some margin to the page and set a default font and colour */
+
+
+/* Give headings their own font */
+
+h1 {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 50px;
+  color: black;
+}
+
+
+/* Main content area */
+
+#content {
+  margin: 80px 70px;
+  text-align: center;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Header/footer boxes */
+
+body {
+background: url("C:/Users/ehendrick/Desktop/Particle-2016-05-18/Particle/Number_match_game/swirl_pattern.png");
+}
+
+.wideBox h1 {
+	margin: 20px auto;
+	background: rgba(255, 255, 255, 0.85);
+    font-weight: thin;
+    width: 950px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+  	font-size: 40px;
+ 	 text-align: center;
+ 	 border-radius: 6px 6px 6px 6px;
+ 	 box-shadow: 2px 2px 2px 2px #ccc;
+  }
+
+hr {
+    border: 0;
+    height: 3px;
+    background: #333;
+}
+
+footer {
+ font-family: 'News Cycle', sans-serif;
+ font-size: 10px;
+ }
+
+
+
+/* Blocks around 1,2,3 and one,two,three...etc. */
+
+#cardSlots, #cardPile {
+	margin: 20px auto;
+  background: rgba(255, 255, 255, 0.85);
+  font-family: 'News Cycle', sans-serif;
+  width: 365px;
+  height: 140px;
+  padding: 15px;
+
+  text-align: center;
+  border-radius: 6px 6px 6px 6px;
+  -moz-box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+}
+
+/* Individual cards and slots */
+
+#cardSlots div, #cardPile div {
+  float: right;
+	margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid #414141;
+    box-shadow: 2px 2px 2px 2px #ccc;
+  background: #C3C7C9;
+   font-family: 'News Cycle', sans-serif;
+}
+
+#cardSlots div:first-child, #cardPile div:first-child {
+  margin-left: 0;
+}
+
+/* one,two,three circles */
+#cardSlots div.hovered {
+  background: #BEBDBF;
+}
+
+#cardSlots div {
+  border-style: dashed;
+}
+
+/* 1,2,3 circles */
+#cardPile div {
+  background: #1cb0a0;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'News Cycle', sans-serif;
+  text-shadow: 0 0 3px #000;
+}
+
+#cardPile div.ui-draggable-dragging {
+  -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+}
+
+/* Individually coloured cards */
+
+#card1.correct { background: #f80c12; }
+#card2.correct { background: #ff4422; }
+#card3.correct { background: #ff9933; }
+#card4.correct { background: #d0c310; }
+#card5.correct { background: #69d025; }
+#card6.correct { background: #11aabb; }
+#card7.correct { background: #4444dd; }
+#card8.correct { background: #3311bb; }
+#card9.correct { background: #3b0cbd; }
+#card10.correct { background: #442299; }
+
+
+/* "You did it!" message */
+#successMessage {
+  font-family: 'News Cycle', sans-serif;
+  position: absolute;
+  left: 580px;
+  top: 250px;
+	margin: 20px auto;
+	background: rgba(255, 255, 255, 0.95);
+    font-weight: thin;
+    width: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+  	font-size: 20px;
+ 	 text-align: center;
+ 	 box-shadow: 2px 2px 2px 2px #ccc;
+ 	  border-radius: 6px 6px 6px 6px;
+}
