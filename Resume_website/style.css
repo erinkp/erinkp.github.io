@@ -1,0 +1,159 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* My CSS */
+
+html, body {
+	background: url("C:/Users/ehendrick/Desktop/Particle-2016-05-18/Particle/Resume_website/mountain.jpg");
+	background-position: 40% 30%%;
+	background-color: #ffffff;
+	height: 5%;
+	width: 5%;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	font-size: 300%;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+h2 {
+	font-family: 'Shadows Into Light', cursive;
+	color: white;
+	display:inline-block;
+	font-size: 125%;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	padding: 5px;
+	background: none repeat scroll 0 0 #96a0a3;
+	opacity: 0.75;
+	border-radius: 3px 4px 5px 6px;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	font-size: 100%;
+	padding-right: 20px;
+	margin-top: 5px;
+}
+
+div#box1 {
+	background: rgba(255, 255, 255, 0.75);
+	border-radius: 3px 4px 5px 6px;
+	width: 500px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 40px:
+	margin-top: 20px;
+	position: relative; top: 80px; left: 20px;
+	padding-bottom: 20px;
+	overflow: auto;
+}
+
+
+.html, .javascript, .jquery, .git, .github, .ruby, .sinatra {
+font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 75%;
+display:inline-block;
+position: relative;
+	margin-bottom:1px;
+	margin-top: 10px;
+	padding: 8px;
+	background: none repeat scroll 0 0 #96a0a3;
+	opacity: 0.7;
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+.contact {
+font-family: 'Shadows Into Light', cursive;
+	color: white;
+	width: 250px;
+	font-size: 100%;
+	}
+
+#social {
+    position: relative;
+}
+
+#social li {
+	margin-top: 5px;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+
+.email {
+font-family: 'Roboto', sans-serif;
+	color: black;
+	font-weight: lighter;
+	font-size: 80%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
