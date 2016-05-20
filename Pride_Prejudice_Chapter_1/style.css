@@ -1,0 +1,76 @@
+#header {
+	background-color: #f16059;
+	opacity: 0.75;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+#chapter {
+	background-color: #D8D8D8;
+	opacity: 0.65;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 15px;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+body {
+	margin:5%;
+	text-align:justify;
+	background: url("C:/Users/ehendrick/Desktop/Particle-2016-05-18/Particle/Pride_Prejudice_Chapter_1/contemporary_china.png");
+	}
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+	}
+
+p {
+	/*text-indent: 1em;
+	margin-top: .25em;
+	margin-bottom: .25em;*/
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	font-weight: lighter;
+	}
+
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	font-weight: lighter;
+	color: #FAFAFA;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+footer {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+}
+
+/* Modal Style */
