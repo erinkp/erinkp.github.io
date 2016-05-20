@@ -50,7 +50,7 @@ input, select { vertical-align: middle; }
 /* My CSS */
 
 html, body {
-	background: url("C:/Users/ehendrick/Desktop/Particle-2016-05-18/Particle/Resume_website/mountain.jpg");
+	background: url("Resume_website/mountain.jpg");
 	background-position: 40% 30%%;
 	background-color: #ffffff;
 	height: 5%;
